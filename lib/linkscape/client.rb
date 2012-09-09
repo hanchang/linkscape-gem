@@ -38,7 +38,7 @@ module Linkscape
       options[:api] = 'url-metrics'
 
       options[:query] = {
-        'Cols' => translateBitfield(options[:cols], options[:columns], options[:fields], :type => :url)
+        'Cols' => 125123428349 #translateBitfield(options[:cols], options[:columns], options[:fields], :type => :url)
       }
       
       raise MissingArgument, "urlMetrics requires a list of columns to return." unless options[:query]['Cols'].nonzero?
